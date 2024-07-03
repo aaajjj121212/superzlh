@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>  
+        .product-box {  
+            display: flex;  
+            flex-wrap: wrap;  
+            justify-content: space-around;  
+            max-width: 1400px;  
+            margin: 0 auto;  
+            padding: 20px;  
+        }  
+  
+        .product-item {  
+            flex: 1 0 200px;  
+            margin: 10px;  
+            border: 1px solid #ccc;  
+            border-radius: 5px;  
+            padding: 10px;  
+            text-align: center;  
+            transition: transform 0.3s ease; /* 过渡效果 */  
+        }  
+  
+        .product-item:hover {  
+            transform: scale(1.05); /* 放大效果 */  
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* 阴影效果 */  
+            cursor: pointer; /* 鼠标样式 */  
+        }  
+  
+        .product-item img {  
+            width: 100%;  
+            height: auto;  
+            margin-bottom: 10px;  
+        }  
+    </style>  
+</head>
+<body>
+    <div class="product-box">  
+        
+        <div class="product-item">  
+            <img src="tea-image/15.jpg" alt="商品1">  
+            <h3>商品1</h3>  
+            <p>商品描述1</p>  
+            <p>价格: $10.99</p>  
+        </div>  
+          
+        
+        <div class="product-item">  
+            <img src="tea-image/15.jpg" alt="商品2">  
+            <h3>商品2</h3>  
+            <p>商品描述2</p>  
+            <p>价格: $15.99</p>  
+        </div>  
+          
+      
+        <div class="product-item">  
+            <img src="tea-image/15.jpg" alt="商品3">  
+            <h3>商品3</h3>  
+            <p>商品描述3</p>  
+            <p>价格: $9.99</p>  
+        </div>  
+          
+        
+        <div class="product-item">  
+            <img src="tea-image/15.jpg" alt="商品4">  
+            <h3>商品4</h3>  
+            <p>商品描述4</p>  
+            <p>价格: $12.99</p>  
+        </div>  
+    </div>  
+</body>
+</html>
